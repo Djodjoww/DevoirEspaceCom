@@ -1,5 +1,6 @@
 document.getElementById('comment-form').addEventListener('submit', function(event) {
     event.preventDefault();
+    console.log("JavaScript file loaded");
   
     // Récupération des valeurs du formulaire
     const firstName = document.getElementById('first-name').value.trim();
